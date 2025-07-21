@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-api-service-3555
+  title: java-api-service-3555
+  description: Create a Java  for user management with PostgreSQL database, JWT authentication, JUnit testing, Docker containerization, and Kubernetes deployment
+  annotations:
+    github.com/project-slug: 
+    backstage.io/managed-by-location: file:./catalog-info.yaml
+    jira.com/project-key: SCRUM
+  tags:
+    - Java
+    - Spring Boot
+    - PostgreSQL
+    - Docker
+spec:
+  type: service
+  owner: backstage-user
+  lifecycle: experimental
+  system: microservices-platform
